@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 using namespace std;
+float moneyToConvert;
 
 int main() {
 	ifstream file;
@@ -13,7 +14,7 @@ int main() {
 	}
 
 	float USRate, GBRate, EURate, JAPRate;
-	float moneyToConvert;
+	
 	cout << "exchange rates \n";
 	file >> USRate >> GBRate >> EURate >> JAPRate;
 	cout << "US Rate: " << USRate << endl; 
